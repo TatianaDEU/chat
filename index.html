@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="top">
+                <a class="btn" href="einstellungen.html">Einstellungen</a>
+                <button class="btn">Ausloggen</button>
+            </div>
+            <div class="field">
+                <div class="message message-me">Ich: Guten Tag!
+                    <span class="time">18:45</span>
+                </div>
+                <div class="message message-user">User: Guten Tag!
+                    <span class="time">18:46</span>
+                </div>
+                <div class="message message-user">User: Wie kann ich Ihnen helfen?
+                    <span class="time">18:46</span>
+                </div>
+
+            </div>
+            <div class="bottom">
+                <input type="text" placeholder="Nachricht..." class="new-message">
+                <button class="btn send-message">-></button>
+            </div>
+        </div>
+    </div>
+
+    <template id="tmpl">
+        <div class="message message-me">
+            <span></span>
+            <div class="time"></div>
+        </div>
+    </template>
+
+    <script src="js/main.js" type="module"></script>
+</body>
+
+
+</html>

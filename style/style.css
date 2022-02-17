@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+html,
+body {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box; }
+
+.btn {
+  border-radius: 0;
+  border: 1px solid #000;
+  background: #fff; }
+
+.wrapper {
+  width: 320px;
+  height: 533px;
+  margin: 10px auto; }
+  .wrapper .content {
+    background-color: #fff;
+    padding: 8px; }
+    .wrapper .content .top {
+      display: flex;
+      justify-content: space-between; }
+      .wrapper .content .top button {
+        font-size: 16px;
+        padding: 5px 8px; }
+      .wrapper .content .top a {
+        font-size: 16px;
+        padding: 5px 8px;
+        color: #000;
+        text-decoration: none; }
+    .wrapper .content .field {
+      height: 437px;
+      width: 302px;
+      border: 1px solid #000;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      overflow: hidden auto;
+      display: flex;
+      flex-direction: column;
+      padding-top: 8px; }
+      .wrapper .content .field .message {
+        padding: 6px;
+        margin: 0px 8px 8px 8px;
+        max-width: fit-content;
+        display: flex;
+        flex-direction: column; }
+      .wrapper .content .field .time {
+        margin-top: 5px;
+        color: #333333;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 14px; }
+      .wrapper .content .field .message-me {
+        background-color: #e3ecd7;
+        text-align: right;
+        align-self: end;
+        right: 0; }
+      .wrapper .content .field .message-user {
+        background-color: #e5e5e5;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        left: 0; }
+    .wrapper .content .bottom {
+      display: flex;
+      justify-content: space-between; }
+      .wrapper .content .bottom input {
+        width: 260px;
+        border-radius: 0;
+        border: 1px solid #000;
+        padding-left: 5px; }
+      .wrapper .content .bottom button {
+        width: 29px;
+        height: 32px; }
+
+/* Settings */
+.wrapper-settings {
+  width: 320px;
+  height: 533px;
+  margin: 10px auto;
+  background-color: #535353;
+  position: relative; }
+  .wrapper-settings .content-settings {
+    width: 273px;
+    height: 319px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 12px;
+    box-sizing: border-box; }
+    .wrapper-settings .content-settings .top {
+      display: flex;
+      justify-content: space-between; }
+      .wrapper-settings .content-settings .top img {
+        width: 14px;
+        height: 14px; }
+    .wrapper-settings .content-settings .title {
+      margin-top: 20px;
+      margin-bottom: 5px; }
+    .wrapper-settings .content-settings .bottom {
+      display: flex;
+      justify-content: space-between; }
+      .wrapper-settings .content-settings .bottom input {
+        border-radius: 0;
+        border: 1px solid #000;
+        height: 26px;
+        width: 205px;
+        padding-left: 5px; }
+      .wrapper-settings .content-settings .bottom button {
+        width: 30px;
+        height: 30px; }
+
+/*# sourceMappingURL=style.css.map */
